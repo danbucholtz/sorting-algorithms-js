@@ -1,0 +1,31 @@
+{
+  "name": "@danbucholtz/algorithms-in-js",
+  "version": "0.0.1",
+  "description": "CS fundamental algorithms implemented in JS as a learning exercise",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Dan Bucholtz",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.0",
+    "@types/node": "^9.4.6",
+    "jest": "^22.4.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts)$": "<rootDir>/scripts/test-preprocessor.js"
+    },
+    "testRegex": "/src/.*\\.spec\\.(ts|js)$",
+    "coverageDirectory": "coverage"
+  }
+}
