@@ -12,9 +12,9 @@
     "typescript": "latest"
   },
   "devDependencies": {
-    "@types/jest": "^22.2.0",
-    "@types/node": "^9.4.6",
-    "jest": "^22.4.2"
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "jest": "latest"
   },
   "jest": {
     "testEnvironment": "node",
