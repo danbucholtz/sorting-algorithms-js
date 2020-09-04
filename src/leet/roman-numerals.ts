@@ -9,8 +9,6 @@ map.set('d', 500);
 map.set('m', 1000);
 
 
-
-
 export function romanNumeralToInt(input: string) {
   const lowercase = input.toLowerCase();
   return processChars(lowercase);
