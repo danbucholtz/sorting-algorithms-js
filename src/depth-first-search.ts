@@ -9,7 +9,6 @@ export function depthFirstSearchInternal(nodeOne: Node, nodeTwo: Node, visited: 
   if (visited.has(nodeOne.id)) {
     return false;
   }
-  console.log(`Source ${nodeOne.id} Dest ${nodeTwo.id}`);
   visited.add(nodeOne.id);
   if (nodeOne.id === nodeTwo.id) {
     return true;
