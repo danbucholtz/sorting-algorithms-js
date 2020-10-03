@@ -14,8 +14,8 @@ describe('longest palindrome', () => {
       expect(result).toBe('racecar');
     });
 
-    it('should return aba when input is abaccccccc', () => {
-      const input = `abaccccccc`;
+    it('should return aba when input is abacc', () => {
+      const input = `abacc`;
       const result = getLongestPalindrome(input);
       expect(result).toBe('aba');
     });
