@@ -1,13 +1,9 @@
+import { SinglelyLinkedList } from './interfaces';
 
-export interface Node {
-  value?: number;
-  next?: Node;
-}
-
-export function removeDupes(head: Node) {
+export function removeDupes(head: SinglelyLinkedList) {
   const set = new Set();
   let node = head;
-  let trailer: Node = null;
+  let trailer: SinglelyLinkedList = null;
   while (node) {
     if (set.has(node.value)) {
       trailer.next = node.next;

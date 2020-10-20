@@ -1,8 +1,9 @@
-import { removeDupes, Node } from './remove-dupes';
+import { SinglelyLinkedList } from './interfaces';
+import { removeDupes } from './remove-dupes';
 
 describe(removeDupes.name, () => {
   it('should not alter the list when there are no dupes', () => {
-    const linkedList: Node = {
+    const linkedList: SinglelyLinkedList = {
       value: 1,
       next: {
         value: 2,
@@ -22,7 +23,7 @@ describe(removeDupes.name, () => {
   });
 
   it('should remove the dupes', () => {
-    const linkedList: Node = {
+    const linkedList: SinglelyLinkedList = {
       value: 1,
       next: {
         value: 2,

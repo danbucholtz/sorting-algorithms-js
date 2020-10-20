@@ -1,19 +1,16 @@
+import { SinglelyLinkedList } from './interfaces';
 
-export interface Node {
-  value?: number;
-  next?: Node;
-}
 
-export function returnNth(numFromEnd: number, head: Node) {
+export function returnNth(numFromEnd: number, head: SinglelyLinkedList) {
   let node = head;
   let trailer = head;
   let numIterations = 0;
   while (node) {
-    if (numIterations >= numFromEnd) {
+    if (numIterations > numFromEnd) {
       trailer = trailer.next;
     }
-    node = node.next;
     numIterations++;
+    node = node.next;
   }
   return trailer;
 }
