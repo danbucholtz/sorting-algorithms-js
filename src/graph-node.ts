@@ -15,6 +15,8 @@ export class Node {
     return this.connectedNodes.has(node);
   }
 
+  getNumEdges()
+
 }
 
 export class Graph {
