@@ -5,13 +5,11 @@ export function magicIndex(array: number[]) {
 }
 
 function magicIndexImpl(array: number[], start: number, end: number): number {
-  console.log(`calling impl with ${start} and ${end}`);
   if (start > end || end < start) {
     return -1;
   }
 
   const midpoint = start + Math.floor((end-start)/2);
-  console.log(`midpoint is ${midpoint}`);
   if (array[midpoint] === midpoint) {
     return midpoint;
   }

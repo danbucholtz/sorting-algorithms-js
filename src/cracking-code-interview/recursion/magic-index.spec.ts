@@ -19,4 +19,10 @@ describe(magicIndex.name, () => {
     const result = magicIndex(array);
     expect(result).toBe(2);
   });
+
+  it('should return -1 if there is a magic index in array', () => {
+    const array = [0, 0, 1];
+    const result = magicIndex(array);
+    expect(result).toBe(-1);
+  });
 });
