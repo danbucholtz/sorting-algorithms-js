@@ -6,8 +6,6 @@ export function paintFill(matrix: string[][], row: number, col: number, newColor
 }
 
 function paintFillImpl(matrix: string[][], row: number, col: number, newColor: string, oldColor: string) {
-  console.log('row: ', row);
-  console.log('col: ', col);
   if (row < 0 || col < 0 || row > matrix.length - 1 || col > matrix[0].length - 1 || matrix[row][col] !== oldColor) {
     return;
   }
