@@ -4,10 +4,10 @@ export function calculateString(input: string[]) {
   // TODO - validate input
 
   // first, process all multiplication and reduce the array to addition operations
-  const array: string[] = [];
+  let startValue = 0;
   for (let i = 0; i < input.length; i++) {
     if (input[i] === '+') {
-      //array.push('+');
+      continue;
     }
     else if (input[i] === '*') {
       let currentValue = 0;
@@ -26,18 +26,13 @@ export function calculateString(input: string[]) {
         }
         i++;
       }
-      array.push('' + currentValue);
+      startValue += currentValue;
   } else {
       if (input[i] != '' && input[i + 1] !== '*') {
-        array.push(input[i]);
+        startValue += parseInt(input[i]);
       }
     }
   }
-  
-  // sum up the list in a second loop
-  let startValue = 0;
-  for (const value of array) {
-    startValue += parseInt(value);
-  }
-  return startValue;
+
+ return startValue;
 }
