@@ -15,8 +15,6 @@ export class Node {
     return this.connectedNodes.has(node);
   }
 
-  getNumEdges()
-
 }
 
 export class Graph {
@@ -33,5 +31,9 @@ export class Graph {
 
   getNode(id: number) {
     return this.map.get(id);
+  }
+
+  getSize() {
+    return this.map.size;
   }
 }
