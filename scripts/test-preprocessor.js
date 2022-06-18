@@ -4,13 +4,14 @@ const tsConfig = require('../tsconfig.json');
 module.exports = {
   process(src, path) {
     if (path.endsWith('.ts')) {
-      return tsc.transpile(
+      const code = tsc.transpile(
         src,
         tsConfig.compilerOptions,
         path,
         []
       );
+      return { code }
     }
-    return src;
+    return { code: src};
   },
 };
