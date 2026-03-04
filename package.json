@@ -3,30 +3,17 @@
   "version": "0.0.1",
   "description": "CS fundamental algorithms implemented in JS as a learning exercise",
   "main": "./src/index.ts",
+  "packageManager": "pnpm@10.30.3",
   "scripts": {
-    "test": "jest",
-    "build": "tsc"
+    "test": "vitest run",
+    "build": "tsgo -p tsconfig.json"
   },
   "author": "Dan Bucholtz",
   "license": "MIT",
-  "dependencies": {
-    "typescript": "latest"
-  },
   "devDependencies": {
-    "@types/jest": "latest",
-    "@types/node": "latest",
-    "jest": "latest"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "moduleFileExtensions": [
-      "ts",
-      "js"
-    ],
-    "transform": {
-      "^.+\\.(ts)$": "<rootDir>/scripts/test-preprocessor.js"
-    },
-    "testRegex": "/src/.*\\.spec\\.(ts|js)$",
-    "coverageDirectory": "coverage"
+    "@types/node": "25.3.3",
+    "@typescript/native-preview": "7.0.0-dev.20260304.1",
+    "typescript": "5.9.3",
+    "vitest": "4.0.18"
   }
 }
