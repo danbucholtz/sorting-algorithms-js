@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { getLongestPalindrome, findPalindrome } from './longest-palindrome';
 
 describe('longest palindrome', () => {

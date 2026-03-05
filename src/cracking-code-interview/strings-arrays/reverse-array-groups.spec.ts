@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { reverseArrayInGroups } from './reverse-array-groups';
 
 describe(reverseArrayInGroups.name, () => {

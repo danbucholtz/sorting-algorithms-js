@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { minimizeChocolateDiff } from './chocolate-distribution';
 
 describe(minimizeChocolateDiff.name, () => {

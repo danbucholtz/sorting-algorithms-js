@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { isUnique } from './is-unique';
 
 describe(isUnique.name, () => {

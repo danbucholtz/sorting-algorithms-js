@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { arrayLeaders } from './array-leaders';
 
 describe(arrayLeaders.name, () => {

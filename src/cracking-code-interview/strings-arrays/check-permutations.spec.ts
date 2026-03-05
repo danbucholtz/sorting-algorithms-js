@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { checkPermutations } from './check-permutations';
 
 describe(checkPermutations.name, () => {

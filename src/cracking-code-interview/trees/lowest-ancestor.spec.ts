@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { Node } from './list-of-depths';
 import { lowestAncestor } from './lowest-ancestor';
 

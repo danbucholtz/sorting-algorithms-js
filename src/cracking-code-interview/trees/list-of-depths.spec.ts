@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { listOfDepths } from './list-of-depths';
 import { arrayToTree } from './helpers';
 

@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { createTree } from './helpers';
 import { maxDepth } from './max-depth';
 

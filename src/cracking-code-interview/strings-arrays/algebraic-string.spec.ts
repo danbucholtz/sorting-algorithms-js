@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { calculateString } from './algebraic-string';
 
 describe(calculateString.name, () => {

@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { calculateMaxNumberOfEvents, sortEventsInReverseChronologicalOrder } from './max-events';
 
 describe('Max events', () => {

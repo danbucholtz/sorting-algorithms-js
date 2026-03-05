@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { stringCompress } from './string-compress';
 
 describe(stringCompress.name, () => {

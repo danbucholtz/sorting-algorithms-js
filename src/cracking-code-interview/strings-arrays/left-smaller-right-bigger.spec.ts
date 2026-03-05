@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { leftSmallerRightBigger } from './left-smaller-right-bigger';
 
 describe(leftSmallerRightBigger.name, () => {

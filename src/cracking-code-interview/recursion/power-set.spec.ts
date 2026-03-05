@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { powerSet } from './power-set';
 
 describe(powerSet.name, () => {

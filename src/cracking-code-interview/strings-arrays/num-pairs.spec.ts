@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { numPairs } from './num-pairs';
 
 describe(numPairs.name, () => {

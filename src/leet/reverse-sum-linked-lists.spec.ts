@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { LinkedListNode, reverseAndSumLinkedLists } from './reverse-sum-linked-lists';
 
 describe('reverse sum linked lists', () => {

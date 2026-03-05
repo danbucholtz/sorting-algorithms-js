@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { createTree } from './helpers';
 import { getColumnsInOrder } from './print-columns-in-order';
 

@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { Box, stackOfBoxes } from './boxes';
 
 describe(stackOfBoxes.name, () => {

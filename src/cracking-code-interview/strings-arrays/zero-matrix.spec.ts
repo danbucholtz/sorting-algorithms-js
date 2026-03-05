@@ -1,3 +1,4 @@
+import { describe, expect, it, test } from 'vitest';
 import { zeroMatrix } from './zero-matrix';
 
 describe(zeroMatrix.name, () => {

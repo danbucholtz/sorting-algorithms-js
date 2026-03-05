@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { permutationsWithoutDupes } from './permutations-without-dups';
 
 describe(permutationsWithoutDupes.name, () => {

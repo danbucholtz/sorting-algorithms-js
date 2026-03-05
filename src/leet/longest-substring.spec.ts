@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { calculateLongestSubstring } from './longest-substring';
 
 describe('Calculate Longest Substring', () => {

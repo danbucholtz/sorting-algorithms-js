@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { countTriplets } from './count-triplets';
 
 describe(countTriplets.name, () => {

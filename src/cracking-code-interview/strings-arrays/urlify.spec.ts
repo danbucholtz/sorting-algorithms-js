@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { urlify } from './urlify';
 
 describe(urlify.name, () => {

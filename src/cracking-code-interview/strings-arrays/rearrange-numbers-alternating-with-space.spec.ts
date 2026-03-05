@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { rearrangeNumbersAlternating } from './rearrange-numbers-alternating-with-space';
 
 describe(rearrangeNumbersAlternating.name, () => {

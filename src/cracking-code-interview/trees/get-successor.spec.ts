@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { getSuccessor } from './get-successor';
 import { arrayToTree, getChildNode } from './helpers';
 

@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { arrayToTree, getChildNode } from './helpers';
 import { isBst } from './validate-bst';
 

@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { isRotation } from './is-rotation';
 
 describe(isRotation.name, () => {

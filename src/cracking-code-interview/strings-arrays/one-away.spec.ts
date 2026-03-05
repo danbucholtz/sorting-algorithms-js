@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { oneAway } from './one-away';
 
 describe(oneAway.name, () => {

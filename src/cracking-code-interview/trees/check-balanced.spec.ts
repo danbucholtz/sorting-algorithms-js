@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { checkBalanced } from './check-balanced';
 import { arrayToTree, createTree, getChildNode } from './helpers';
 

@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { kthElementMin } from './kth-element';
 
 describe(kthElementMin.name, () => {

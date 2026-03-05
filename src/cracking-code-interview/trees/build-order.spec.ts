@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { calculateBuildOrder, Project } from './build-order';
 
 describe(calculateBuildOrder.name, () => {

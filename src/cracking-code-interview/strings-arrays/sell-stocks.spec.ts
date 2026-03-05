@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { optimizeStocksForProfit } from './sell-stocks';
 
 describe(optimizeStocksForProfit.name, () => {

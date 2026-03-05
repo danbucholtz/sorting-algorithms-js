@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { magicIndex } from './magic-index';
 
 describe(magicIndex.name, () => {

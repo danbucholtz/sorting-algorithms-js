@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { SodaMachine, SodaType} from './index';
 
 describe('Vending Machine', () => {

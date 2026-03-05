@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { subarrayGivenSum } from './subarray-given-sum';
 
 describe(subarrayGivenSum.name, () => {

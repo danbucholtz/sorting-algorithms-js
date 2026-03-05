@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { tripleStep } from './triple-step';
 
 describe(tripleStep.name, () => {

@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { Node, Graph } from './graph-node';
 import { depthFirstSearch } from './depth-first-search';
 import { breadthFirstSearch } from './breadth-first-search';

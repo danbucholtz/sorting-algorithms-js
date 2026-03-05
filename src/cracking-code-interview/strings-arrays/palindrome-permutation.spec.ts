@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { palindromePermutation } from './palindrome-permutation';
 
 describe(palindromePermutation.name, () => {

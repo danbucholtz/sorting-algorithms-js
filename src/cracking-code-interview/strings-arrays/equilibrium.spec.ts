@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { equilibrium } from './equilibrium';
 
 describe(equilibrium.name, () => {

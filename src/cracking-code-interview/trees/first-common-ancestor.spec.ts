@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { firstCommonAncestor } from './first-common-ancestor';
 import { createTree } from './helpers';
 

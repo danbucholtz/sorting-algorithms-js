@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { quickSort } from './quick-sort';
 describe('Quick Sort', () => {
   it('should not blow up a single entry list', () => {

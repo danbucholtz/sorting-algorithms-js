@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { CANT_VISIT_NODE_VALUE, robotGrid } from './robot-grid';
 
 describe(robotGrid.name, () => {

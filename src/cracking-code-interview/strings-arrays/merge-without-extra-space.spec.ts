@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { mergeWithoutExtraSpaceOptimal } from './merge-without-extra-space';
 
 

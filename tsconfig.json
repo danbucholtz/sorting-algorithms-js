@@ -2,19 +2,12 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "lib": ["es2020"],
-    "module": "commonjs",
+    "module": "esnext",
     "outDir": "./dist",
     "strict": true,
     "target": "es2024",
-    "types": [
-      "vitest/globals",
-      "node"
-    ]
+    "types": ["vitest/globals", "node"]
   },
-  "files": [
-    "src/index.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "files": ["src/index.ts"],
+  "exclude": ["node_modules"]
 }

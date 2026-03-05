@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { minTrainPlatforms } from './min-train-platforms';
 
 describe(minTrainPlatforms.name, () => {

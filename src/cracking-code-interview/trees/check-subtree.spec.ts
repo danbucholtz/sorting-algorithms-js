@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { checkSubtree } from './check-subtree';
 import { createTree, getChildNode } from './helpers';
 

@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { pythagoreanTriplet } from './pythagorean-triple';
 
 describe(pythagoreanTriplet.name, () => {

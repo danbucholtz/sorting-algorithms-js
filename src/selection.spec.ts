@@ -1,3 +1,4 @@
+import { describe, it, test } from 'vitest';
 import { selectionSort } from './selection';
 import {
   getLongList,

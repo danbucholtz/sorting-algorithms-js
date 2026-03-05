@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { minimalTree } from './minimal-tree';
 
 describe(minimalTree.name, () => {

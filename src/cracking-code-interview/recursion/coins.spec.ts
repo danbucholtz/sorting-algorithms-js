@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { makeChangePermutations } from './coins';
 
 describe(makeChangePermutations.name, () => {

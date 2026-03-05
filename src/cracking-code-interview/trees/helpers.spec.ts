@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { create } from 'domain';
 import { compareTrees, createTree } from './helpers';
 

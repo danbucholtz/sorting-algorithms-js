@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { inversionOfArray } from './inversion-of-array';
 
 describe(inversionOfArray.name, () => {

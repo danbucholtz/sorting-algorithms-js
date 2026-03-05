@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { romanNumeralToInt } from './roman-numerals';
 
 describe('Roman Numerals', () => {
