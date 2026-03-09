@@ -4,41 +4,77 @@ import { rotateMatrix } from './rotate-matrix';
 describe(rotateMatrix.name, () => {
   it('should rotate a matrix', () => {
     const matrix: string[][] = [
-      ['a', 'b',],
-      ['c', 'd',],
-    ];
-    rotateMatrix(matrix);
-    expect(matrix[0][0]).toBe('c');
-    expect(matrix[0][1]).toBe('a');
-    expect(matrix[1][0]).toBe('d');
-    expect(matrix[1][1]).toBe('b');
-  });
-
-  it('should rotate a bigger matrix', () => {
-    /*const matrix: string[][] = [
-      ['1', '2', '3',],
-      ['4', '5', '6',],
-      ['7', '8', '9',]
+      ['a', 'b'],
+      ['c', 'd'],
     ];
 
     const expected: string[][] = [
-      ['7', '4', '1',],
-      ['8', '5', '2',],
-      ['9', '6', '3',],
-    ]
+      ['c', 'a'],
+      ['d', 'b'],
+    ];
 
     rotateMatrix(matrix);
 
-    console.log('matrix: ', matrix);
-    expect(matrix[0][0]).toBe('7');
-    expect(matrix[0][1]).toBe('4');
-    expect(matrix[0][1]).toBe('1');
-    expect(matrix[1][0]).toBe('8');
-    expect(matrix[1][1]).toBe('5');
-    expect(matrix[1][2]).toBe('2');
-    expect(matrix[2][0]).toBe('9');
-    expect(matrix[2][1]).toBe('6');
-    expect(matrix[2][2]).toBe('3');
-*/
+    expect(matrix).toEqual(expected);
+  });
+
+  it('should rotate a 3x3 matrix', () => {
+    const matrix: string[][] = [
+      ['1', '2', '3'],
+      ['4', '5', '6'],
+      ['7', '8', '9'],
+    ];
+
+    const expected: string[][] = [
+      ['7', '4', '1'],
+      ['8', '5', '2'],
+      ['9', '6', '3'],
+    ];
+
+    rotateMatrix(matrix);
+
+    expect(matrix).toEqual(expected);
+  });
+
+  it('should rotate a 4x4 matrix', () => {
+    const matrix: number[][] = [
+      [1, 2, 3, 4],
+      [5, 6, 7, 8],
+      [9, 10, 11, 12],
+      [13, 14, 15, 16],
+    ];
+
+    const expected: number[][] = [
+      [13, 9, 5, 1],
+      [14, 10, 6, 2],
+      [15, 11, 7, 3],
+      [16, 12, 8, 4],
+    ];
+
+    rotateMatrix(matrix);
+
+    expect(matrix).toEqual(expected);
+  });
+
+  it('should rotate a 5x5 matrix', () => {
+    const matrix: number[][] = [
+      [1, 2, 3, 4, 5],
+      [6, 7, 8, 9, 10],
+      [11, 12, 13, 14, 15],
+      [16, 17, 18, 19, 20],
+      [21, 22, 23, 24, 25],
+    ];
+
+    const expected: number[][] = [
+      [21, 16, 11, 6, 1],
+      [22, 17, 12, 7, 2],
+      [23, 18, 13, 8, 3],
+      [24, 19, 14, 9, 4],
+      [25, 20, 15, 10, 5],
+    ];
+
+    rotateMatrix(matrix);
+
+    expect(matrix).toEqual(expected);
   });
 });
